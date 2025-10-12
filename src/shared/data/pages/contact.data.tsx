@@ -8,10 +8,10 @@ export const heroContact: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">{`Thank you for considering us for your project! We're excited to hear from you.`}</span>{' '}
-      {`Our team can assist you in building your dream website.`}
+      {`Our team can assist you in building your patrol and security system with AI-powered drones.`}
     </>
   ),
-  tagline: 'Demo Contact Page',
+  // tagline: 'Contact',
 };
 
 // Contact data on Contact page *******************
@@ -79,7 +79,7 @@ export const contact2Contact: ContactProps = {
           label: 'Technical help',
         },
         {
-          label: 'Claims',
+          label: 'Career opportunities',
         },
         {
           label: 'Others',

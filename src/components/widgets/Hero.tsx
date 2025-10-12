@@ -26,23 +26,23 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
               </div>
             </div>
           </div>
-          {image && (
-            <div className="relative m-auto max-w-5xl">
-              <Image
-                className="mx-auto h-auto w-full rounded-md bg-gray-400 dark:bg-slate-700"
-                src={image.src}
-                alt={image.alt}
-                width={1024}
-                height={607}
-                sizes="(max-width: 64rem) 100vw, 1024px"
-                loading="eager"
-                placeholder="blur"
-                priority
-              />
-            </div>
-          )}
         </div>
       </div>
+      {image && (
+        <div className="relative w-full">
+          <Image
+            className="h-auto w-full bg-gray-400 dark:bg-slate-700"
+            src={image.src}
+            alt={image.alt}
+            width={1920}
+            height={1080}
+            sizes="100vw"
+            loading="eager"
+            placeholder="blur"
+            priority
+          />
+        </div>
+      )}
     </section>
   );
 };

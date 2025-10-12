@@ -10,6 +10,11 @@ import { useState } from 'react';
 const Testimonials2 = ({ header, testimonials, isTestimonialUp, id, hasBackground = false }: TestimonialsProps) => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
+  // Safety check for undefined testimonials
+  if (!testimonials || !Array.isArray(testimonials) || testimonials.length === 0) {
+    return null;
+  }
+
   const firstIndex = 0;
   const lastIndex = testimonials.length - 1;
 

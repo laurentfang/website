@@ -5,6 +5,7 @@ import { SITE } from '~/config.js';
 import Hero from '~/components/widgets/Hero';
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features from '~/components/widgets/Features';
+import DroneGif from '~/components/widgets/DroneGif';
 import Content from '~/components/widgets/Content';
 import Steps from '~/components/widgets/Steps';
 import Testimonials from '~/components/widgets/Testimonials';
@@ -18,7 +19,7 @@ import {
   contactHome,
   contentHomeOne,
   contentHomeTwo,
-  faqs2Home,
+  // faqs2Home,
   featuresHome,
   heroHome,
   pricingHome,
@@ -38,11 +39,12 @@ export default function Page() {
       <Hero {...heroHome} />
       <SocialProof {...socialProofHome} />
       <Features {...featuresHome} />
+      <DroneGif />
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
       <Testimonials {...testimonialsHome} />
-      <FAQs2 {...faqs2Home} />
+      {/* <FAQs2 {...faqs2Home} /> */}
       <Pricing {...pricingHome} />
       <Team {...teamHome} />
       <Contact {...contactHome} />

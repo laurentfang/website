@@ -38,9 +38,9 @@ import {
 
 // Hero2 data on About page *******************
 export const hero2About: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Our Story',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
+    'Founded on the Onondaga Nation territory in New York, our company represents a new chapter in American innovation — where advanced robotics meets deep cultural respect.\n\nWe are the first technology enterprise established on Native American land with the goal to build, design, and operate autonomous drone systems made entirely in the United States.\n\nOur vision is clear: to create drones that serve and safeguard Native Nations, bringing state-of-the-art defense, surveying, and environmental protection tools directly to tribal lands — under tribal control.',
   tagline: 'About Us Demo Page',
   callToAction: {
     text: 'View jobs',
@@ -63,16 +63,16 @@ export const statsAbout: StatsProps = {
   hasBackground: true,
   items: [
     {
-      title: 13269,
-      description: 'Downloads',
+      title: 0,
+      description: 'Money Raised',
     },
     {
-      title: 24.8,
-      description: 'Stars',
+      title: 0,
+      description: 'Users',
     },
     {
-      title: 1767.77,
-      description: 'Forks',
+      title: 0,
+      description: 'Tribes Supported',
     },
     {
       title: 484000,
@@ -88,8 +88,8 @@ export const featuresFourAbout: FeaturesProps = {
   header: {
     title: 'Our mission',
     subtitle:
-      'Quisque laoreet nisi et lectus consectetur, at placerat libero dictum. Donec sed hendrerit turpis. Nunc vel nibh blandit, hendrerit turpis non, mattis magna. Duis feugiat dui mi, eget iaculis ligula gravida congue. Nam quis mauris id eros imperdiet imperdiet. In et dolor non nisi vestibulum rhoncus nec eget dolor.',
-    tagline: 'Mission and Values',
+      'Protecting People. Preserving Land. Empowering Sovereignty. We believe technology should serve the people who live closest to the land. Our mission is to equip Native American nations with advanced aerial tools.',
+    // tagline: 'Mission and Values',
   },
 };
 
@@ -99,41 +99,41 @@ export const featuresFourAboutTwo: FeaturesProps = {
   hasBackground: false,
   header: {
     title: 'Our values',
-    subtitle: 'Etiam tellus tortor, mattis id mauris et, lobortis ullamcorper nunc.',
+    subtitle: 'Rooted in Tradition, Driven by Innovation.',
   },
   isAfterContent: true,
   columns: 2,
   items: [
     {
-      title: 'Customer-centricity',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Sovereignty',
+      description: 'We believe technology should empower, not exploit. All our systems are designed to keep data ownership and operational control in the hands of Native tribes — ensuring true technological sovereignty.',
       icon: IconUser,
     },
     {
-      title: 'Innovation and adaptability',
+      title: 'Innovation with Integrity',
       description:
-        'Etiam ornare, purus nec venenatis porttitor, velit leo convallis dui, at porttitor nibh tortor quis velit.',
+        'We fuse cutting-edge robotics and AI with a deep respect for cultural values. Our innovations are built ethically, sustainably, and always with human and environmental impact in mind.',
       icon: IconBulb,
     },
     {
-      title: 'Quality assurance',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      title: 'Community First',
+      description: 'We exist to serve and protect Native communities — not just through technology, but through training, job creation, and educational partnerships that inspire the next generation of Native engineers and scientists.',
       icon: IconThumbUp,
     },
     {
-      title: 'Accessibility and customization',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Protection of the Land',
+      description: 'The land is sacred. Our drones are tools to monitor, preserve, and defend the natural world — detecting wildfires early, tracking environmental changes, and preventing illegal activities on tribal territories.',
       icon: IconAdjustments,
     },
     {
-      title: 'Collaboration and partnership',
+      title: 'Collaboration and Unity',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis.',
+        'Just as our drones work together in harmony, we believe in collaboration between nations, tribes, and partners. We are building bridges between tradition and technology, community and innovation.',
       icon: IconHeartHandshake,
     },
     {
-      title: 'Ethical and responsible design',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Made in America',
+      description: 'We are committed to American and community manufacturing and self-reliance — ensuring our technology is developed, built, and tested here in the U.S., for the benefit of American people and Native Nations alike.',
       icon: IconHomeEco,
     },
   ],
@@ -185,49 +185,49 @@ export const stepsAbout: StepsProps = {
 };
 
 // Features3 data on About page *******************
-export const features3About: FeaturesProps = {
-  id: 'featuresThree-on-about',
-  hasBackground: false,
-  columns: 3,
-  header: {
-    title: 'Our culture',
-    subtitle:
-      'Nullam maximus ante eros, ac eleifend mi condimentum ut. Donec volutpat felis ac purus pretium, vitae mollis quam scelerisque.',
-    tagline: 'culture',
-  },
-  items: [
-    {
-      title: 'Customer engagement',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconCirclesRelation,
-    },
-    {
-      title: 'Creativity and design excellence',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconPalette,
-    },
-    {
-      title: 'Continuous learning',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconBook,
-    },
-    {
-      title: 'Collaboration and cross-functionality',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconPuzzle2,
-    },
-    {
-      title: 'Entrepreneurial spirit',
-      description: 'Phasellus interdum placerat enim sed vehicula. Ut tincidunt, magna in iaculis maximus.',
-      icon: IconFlame,
-    },
-    {
-      title: 'Employee well-being and balance',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconScale,
-    },
-  ],
-};
+// export const features3About: FeaturesProps = {
+//   id: 'featuresThree-on-about',
+//   hasBackground: false,
+//   columns: 3,
+//   header: {
+//     title: 'Our culture',
+//     subtitle:
+//       'Nullam maximus ante eros, ac eleifend mi condimentum ut. Donec volutpat felis ac purus pretium, vitae mollis quam scelerisque.',
+//     tagline: 'culture',
+//   },
+//   items: [
+//     {
+//       title: 'Customer engagement',
+//       description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+//       icon: IconCirclesRelation,
+//     },
+//     {
+//       title: 'Creativity and design excellence',
+//       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+//       icon: IconPalette,
+//     },
+//     {
+//       title: 'Continuous learning',
+//       description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+//       icon: IconBook,
+//     },
+//     {
+//       title: 'Collaboration and cross-functionality',
+//       description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+//       icon: IconPuzzle2,
+//     },
+//     {
+//       title: 'Entrepreneurial spirit',
+//       description: 'Phasellus interdum placerat enim sed vehicula. Ut tincidunt, magna in iaculis maximus.',
+//       icon: IconFlame,
+//     },
+//     {
+//       title: 'Employee well-being and balance',
+//       description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+//       icon: IconScale,
+//     },
+//   ],
+// };
 
 // Features data on About page *******************
 export const featuresAbout: FeaturesProps = {
@@ -268,8 +268,8 @@ export const teamAbout: TeamProps = {
   hasBackground: false,
   header: {
     title: 'Meet our executive team',
-    subtitle:
-      'Proin quis neque vehicula, sagittis felis ut, scelerisque mi. Nullam consequat, erat eu luctus sodales, ipsum tellus facilisis magna, eu condimentum lectus.',
+    // subtitle:
+    //   'Proin quis neque vehicula, sagittis felis ut, scelerisque mi. Nullam consequat, erat eu luctus sodales, ipsum tellus facilisis magna, eu condimentum lectus.',
     tagline: 'team',
   },
   teams: [
@@ -477,77 +477,77 @@ export const teamAbout: TeamProps = {
 };
 
 // Testimonial2 data on About page *******************
-export const testimonials2About: TestimonialsProps = {
-  id: 'testimonialsTwo-on-about',
-  hasBackground: true,
-  isTestimonialUp: true,
-  header: {
-    title: 'Our success stories',
-    tagline: 'Customer comments',
-  },
-  testimonials: [
-    {
-      name: 'Jane Smith',
-      job: 'UX Designer',
-      testimonial: `Your templates have been a game-changer for my projects. They're not just beautifully designed; they're also incredibly easy to customize. Thanks to your templates, I've been able to save time and deliver stunning websites to my clients.`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Jane Smith',
-      },
-      href: '/',
-    },
-    {
-      name: 'John Doe',
-      job: 'Frontend Developer',
-      testimonial: `I can't say enough good things about your Next.js and Tailwind CSS templates. As a frontend developer, I appreciate the clean and well-organized code. These templates have significantly sped up my development process, and the results are always impressive.`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'John Doe',
-      },
-      href: '/',
-    },
-    {
-      name: 'Emily Turner',
-      job: 'Marketing Manager',
-      testimonial: `This templates have made our marketing campaigns stand out. The responsiveness and performance of the websites we've built with them have boosted our conversion rates. Thank you for helping us shine in the digital world!`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Emily Turner',
-      },
-      href: '/',
-    },
-    {
-      name: 'Michael Clark',
-      job: 'Startup Founder',
-      testimonial: `I stumbled upon your templates while looking for a way to launch my startup quickly. Your templates not only saved me valuable time but also gave my business a professional and modern online presence. Highly recommended!`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Michael Clark',
-      },
-      href: '/',
-    },
-    {
-      name: 'Linda Johnson',
-      job: 'Freelance Web Designer',
-      testimonial: `I've been using your templates for my freelance projects, and my clients are always thrilled with the results. The templates are not only visually appealing but also user-friendly, making my job much easier.`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Linda Johnson',
-      },
-      href: '/',
-    },
-    {
-      name: 'David Rogers',
-      job: 'E-commerce Entrepreneur',
-      testimonial: `The speed and SEO-friendliness of the websites I've built with these templates have led to increased traffic and sales. I couldn't be happier!`,
-      image: {
-        src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'David Rogers',
-      },
-      href: '/',
-    },
-  ],
-};
+// export const testimonials2About: TestimonialsProps = {
+//   id: 'testimonialsTwo-on-about',
+//   hasBackground: true,
+//   isTestimonialUp: true,
+//   header: {
+//     title: 'Our success stories',
+//     tagline: 'Customer comments',
+//   },
+//   testimonials: [
+//     {
+//       name: 'Jane Smith',
+//       job: 'UX Designer',
+//       testimonial: `Your templates have been a game-changer for my projects. They're not just beautifully designed; they're also incredibly easy to customize. Thanks to your templates, I've been able to save time and deliver stunning websites to my clients.`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'Jane Smith',
+//       },
+//       href: '/',
+//     },
+//     {
+//       name: 'John Doe',
+//       job: 'Frontend Developer',
+//       testimonial: `I can't say enough good things about your Next.js and Tailwind CSS templates. As a frontend developer, I appreciate the clean and well-organized code. These templates have significantly sped up my development process, and the results are always impressive.`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'John Doe',
+//       },
+//       href: '/',
+//     },
+//     {
+//       name: 'Emily Turner',
+//       job: 'Marketing Manager',
+//       testimonial: `This templates have made our marketing campaigns stand out. The responsiveness and performance of the websites we've built with them have boosted our conversion rates. Thank you for helping us shine in the digital world!`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'Emily Turner',
+//       },
+//       href: '/',
+//     },
+//     {
+//       name: 'Michael Clark',
+//       job: 'Startup Founder',
+//       testimonial: `I stumbled upon your templates while looking for a way to launch my startup quickly. Your templates not only saved me valuable time but also gave my business a professional and modern online presence. Highly recommended!`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'Michael Clark',
+//       },
+//       href: '/',
+//     },
+//     {
+//       name: 'Linda Johnson',
+//       job: 'Freelance Web Designer',
+//       testimonial: `I've been using your templates for my freelance projects, and my clients are always thrilled with the results. The templates are not only visually appealing but also user-friendly, making my job much easier.`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'Linda Johnson',
+//       },
+//       href: '/',
+//     },
+//     {
+//       name: 'David Rogers',
+//       job: 'E-commerce Entrepreneur',
+//       testimonial: `The speed and SEO-friendliness of the websites I've built with these templates have led to increased traffic and sales. I couldn't be happier!`,
+//       image: {
+//         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+//         alt: 'David Rogers',
+//       },
+//       href: '/',
+//     },
+//   ],
+// };
 
 // FAQS data on About page *******************
 export const faqsAbout: FAQsProps = {

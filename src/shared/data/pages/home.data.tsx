@@ -28,7 +28,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -41,31 +41,25 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Redefining Aerial Intelligence — From Native Land, For Native Land.
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      We are the first robotics and drone company founded on Native American land, 
+      pioneering next-generation, AI-powered aerial systems to protect, survey, 
+      and empower Native communities across the United States.
     </>
   ),
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-    targetBlank: true,
-  },
+  // callToAction: {
+  //   text: 'Get template',
+  //   href: 'https://github.com/onwidget/tailnext',
+  //   icon: IconDownload,
+  //   targetBlank: true,
+  // },
   callToAction2: {
     text: 'Learn more',
-    href: '/',
+    href: '/about',
   },
   image: {
     src: heroImg,
@@ -73,33 +67,33 @@ export const heroHome: HeroProps = {
   },
 };
 
-// SocialProof data on Home page *******************
-export const socialProofHome: SocialProofProps = {
-  id: 'socialProof-on-home',
-  hasBackground: false,
-  images: [
-    {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
-    },
-    {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
-    },
-  ],
-};
+// // SocialProof data on Home page *******************
+// export const socialProofHome: SocialProofProps = {
+//   id: 'socialProof-on-home',
+//   hasBackground: false,
+//   images: [
+//     {
+//       link: 'https://nextjs.org/',
+//       src: nextJsLogo,
+//       alt: 'NextJs Logo',
+//     },
+//     {
+//       link: 'https://react.dev/',
+//       src: reactLogo,
+//       alt: 'React Logo',
+//     },
+//     {
+//       link: 'https://tailwindcss.com/',
+//       src: tailwindCssLogo,
+//       alt: 'Tailwind CSS Logo',
+//     },
+//     {
+//       link: 'https://www.typescriptlang.org/',
+//       src: typescriptLogo,
+//       alt: 'Typescript Logo',
+//     },
+//   ],
+// };
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
@@ -109,73 +103,73 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        Beyond Drones — Aerial Intelligence Ecosystem
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
+      "Our platform integrates multi-agent collaboration, AI-powered autonomy, and sustainable operations to redefine what drones can do.",
     tagline: 'Features',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Multi-Agent Collaboration',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        'Swarms of drones that communicate and coordinate in real time — for large-scale surveying, search-and-rescue, and community patrols.',
+      // icon: IconBrandTailwind,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Smart Takeoff & Landing',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        'Autonomous docking stations with battery recharging and swapping, enabling continuous 24/7 operations without manual intervention.',
+      // icon: IconComponents,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
     {
-      title: 'Best Practices',
+      title: 'Multi-Scale Collaboration',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        'Small drones for surveillance, medium drones for mapping, and large drones for payload delivery — all synchronized in one mission system.',
+      // icon: IconListCheck,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'AI + LLM-Powered Control',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        'Our system leverages Large Language Models (LLMs) so any operator — regardless of technical background — can command and deploy drones using natural voice or text commands.',
+      // icon: IconRocket,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Tribal Protection Focus',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        "Designed to protect sacred land, monitor wildlife, and strengthen community safety, while ensuring data sovereignty stays with Native tribes..",
+      // icon: IconArrowsRightLeft,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
     {
       title: 'Open to new ideas and contributions',
       description:
         'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      // icon: IconBulb,
+      // callToAction: {
+      //   text: 'Discover now',
+      //   href: '/',
+      // },
     },
   ],
 };
@@ -362,132 +356,132 @@ export const testimonialsHome: TestimonialsProps = {
 };
 
 // FAQS data on Home page *******************
-export const faqs2Home: FAQsProps = {
-  id: 'faqsTwo-on-home',
-  hasBackground: false,
-  header: {
-    title: 'Frequently Asked Questions',
-    subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
-    tagline: 'FAQS',
-  },
-  items: [
-    {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
-    },
-    {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
-    },
-    {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
-    },
-    {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
-    },
-    {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-    },
-    {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
-    },
-  ],
-};
+// export const faqs2Home: FAQsProps = {
+//   id: 'faqsTwo-on-home',
+//   hasBackground: false,
+//   header: {
+//     title: 'Frequently Asked Questions',
+//     subtitle:
+//       'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+//     tagline: 'FAQS',
+//   },
+//   items: [
+//     {
+//       title: 'What do I need to start?',
+//       description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+//     },
+//     {
+//       title: 'How to install the NextJS + Tailwind CSS template?',
+//       description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+//     },
+//     {
+//       title: "What's something that you completely don't understand?",
+//       description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+//     },
+//     {
+//       title: "What's an example of when you changed your mind?",
+//       description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+//     },
+//     {
+//       title: 'What is something that you would really like to try again?',
+//       description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+//     },
+//     {
+//       title: 'If you could only ask one question to each person you meet, what would that question be?',
+//       description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+//     },
+//   ],
+// };
 
 // Pricing data on Home page *******************
-export const pricingHome: PricingProps = {
-  id: 'pricing-on-home',
-  hasBackground: true,
-  header: {
-    title: 'Prices for each plan',
-    subtitle:
-      'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
-    // tagline: 'Pricing',
-  },
-  prices: [
-    {
-      title: 'basic',
-      price: 29,
-      period: 'per month',
-      items: [
-        {
-          description: 'Etiam in libero, et volutpat',
-        },
-        {
-          description: 'Aenean ac nunc dolor tristique',
-        },
-        {
-          description: 'Cras scelerisque accumsan lib',
-        },
-        {
-          description: 'In hac habitasse',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 7-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-    {
-      title: 'standard',
-      price: 69,
-      period: 'per month',
-      items: [
-        {
-          description: 'Proin vel laoreet',
-        },
-        {
-          description: 'Ut efficitur egestas',
-        },
-        {
-          description: 'Pellentesque ut nibh',
-        },
-        {
-          description: 'Donec fringilla sem',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 15-day trial',
-        href: '/',
-      },
-      hasRibbon: true,
-      ribbonTitle: 'Popular',
-    },
-    {
-      title: 'premium',
-      price: 199,
-      period: 'per month',
-      items: [
-        {
-          description: 'Curabitur suscipit risus',
-        },
-        {
-          description: 'Aliquam blandit malesuada',
-        },
-        {
-          description: 'Suspendisse sit amet',
-        },
-        {
-          description: 'Suspendisse auctor dui',
-        },
-      ],
-      callToAction: {
-        targetBlank: true,
-        text: 'Free 30-day trial',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-  ],
-};
+// export const pricingHome: PricingProps = {
+//   id: 'pricing-on-home',
+//   hasBackground: true,
+//   header: {
+//     title: 'Prices for each plan',
+//     subtitle:
+//       'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
+//     // tagline: 'Pricing',
+//   },
+//   prices: [
+//     {
+//       title: 'basic',
+//       price: 29,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Etiam in libero, et volutpat',
+//         },
+//         {
+//           description: 'Aenean ac nunc dolor tristique',
+//         },
+//         {
+//           description: 'Cras scelerisque accumsan lib',
+//         },
+//         {
+//           description: 'In hac habitasse',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 7-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: false,
+//     },
+//     {
+//       title: 'standard',
+//       price: 69,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Proin vel laoreet',
+//         },
+//         {
+//           description: 'Ut efficitur egestas',
+//         },
+//         {
+//           description: 'Pellentesque ut nibh',
+//         },
+//         {
+//           description: 'Donec fringilla sem',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 15-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: true,
+//       ribbonTitle: 'Popular',
+//     },
+//     {
+//       title: 'premium',
+//       price: 199,
+//       period: 'per month',
+//       items: [
+//         {
+//           description: 'Curabitur suscipit risus',
+//         },
+//         {
+//           description: 'Aliquam blandit malesuada',
+//         },
+//         {
+//           description: 'Suspendisse sit amet',
+//         },
+//         {
+//           description: 'Suspendisse auctor dui',
+//         },
+//       ],
+//       callToAction: {
+//         targetBlank: true,
+//         text: 'Free 30-day trial',
+//         href: '/',
+//       },
+//       hasRibbon: false,
+//     },
+//   ],
+// };
 
 // Team data on Home page *******************
 export const teamHome: TeamProps = {
@@ -608,11 +602,11 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    // subtitle: 'In hac habitasse platea dictumst',
     tagline: 'Contact',
   },
-  content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+  // content:
+  //   'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
   items: [
     {
       title: 'Our Address',
@@ -659,43 +653,43 @@ export const contactHome: ContactProps = {
   },
 };
 
-// CallToAction data *******************
-export const callToAction2Home: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
-  subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
-  items: [
-    {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
-    {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
-    },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          autocomplete: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
-    },
-  ],
-};
+// // CallToAction data *******************
+// export const callToAction2Home: CallToActionProps = {
+//   title: 'Next.js + Tailwind CSS',
+//   subtitle:
+//     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
+//   callToAction: {
+//     text: 'Get template',
+//     href: 'https://github.com/onwidget/tailnext',
+//     icon: IconDownload,
+//   },
+//   items: [
+//     {
+//       title: 'Get template',
+//       description: 'Aliquam sodales est lectus, quis.',
+//       href: 'https://github.com/onwidget/tailnext',
+//     },
+//     {
+//       title: 'Learn more',
+//       description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
+//       href: '/',
+//     },
+//     {
+//       title: 'Subscribe',
+//       description: 'Morbi orci nunc, euismod ac dui id, convallis.',
+//       form: {
+//         icon: IconMail,
+//         input: {
+//           type: 'email',
+//           name: 'email',
+//           autocomplete: 'email',
+//           placeholder: 'Enter your email address',
+//         },
+//         btn: {
+//           title: 'Subscribe',
+//           type: 'submit',
+//         },
+//       },
+//     },
+//   ],
+// };

@@ -7,6 +7,11 @@ import { CollapseProps } from '~/shared/types';
 const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps) => {
   const { activeIndex, handleSetIndex } = useCollapse();
 
+  // Safety check for undefined items
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return null;
+  }
+
   return (
     <>
       {items.map(({ title, description }, index) => (

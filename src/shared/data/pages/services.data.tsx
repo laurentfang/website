@@ -17,7 +17,7 @@ import {
   TestimonialsProps,
 } from '~/shared/types';
 
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 
