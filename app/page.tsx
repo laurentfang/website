@@ -6,6 +6,7 @@ import Hero from '~/components/widgets/Hero';
 import SocialProof from '../src/components/widgets/SocialProof';
 import Features from '~/components/widgets/Features';
 import DroneGif from '~/components/widgets/DroneGif';
+import VideoClip from '~/components/widgets/VideoClip';
 import Content from '~/components/widgets/Content';
 import Steps from '~/components/widgets/Steps';
 import Testimonials from '~/components/widgets/Testimonials';
@@ -40,6 +41,7 @@ export default function Page() {
       <SocialProof {...socialProofHome} />
       <Features {...featuresHome} />
       <DroneGif />
+      <VideoClip />
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
