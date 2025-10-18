@@ -19,7 +19,7 @@ import {
   hero2About,
   statsAbout,
   stepsAbout,
-  // testimonials2About,
+  testimonials2About,
   featuresAbout,
   teamAbout,
 } from '~/shared/data/pages/about.data';
@@ -28,20 +28,34 @@ export const metadata: Metadata = {
   title: `About us`,
 };
 
+const sectionVisibility = {
+  hero: true,
+  stats: true,
+  mission: true,
+  values: true,
+  steps: true,
+  culture: false,
+  achievements: true,
+  team: true,
+  testimonials: false,
+  faqs: true,
+  contact: true,
+} as const;
+
 const Page = () => {
   return (
     <>
-      <Hero2 {...hero2About} />
-      <Stats {...statsAbout} />
-      <Features4 {...featuresFourAbout} />
-      <Features4 {...featuresFourAboutTwo} />
-      <Steps {...stepsAbout} />
-      <Features3 {...features3About} />
-      <Features {...featuresAbout} />
-      <Team2 {...teamAbout} />
-      {/* <Testimonials2 {...testimonials2About} /> */}
-      <FAQs {...faqsAbout} />
-      <Contact {...contactAbout} />
+      {sectionVisibility.hero && <Hero2 {...hero2About} />}
+      {sectionVisibility.stats && <Stats {...statsAbout} />}
+      {sectionVisibility.mission && <Features4 {...featuresFourAbout} />}
+      {sectionVisibility.values && <Features4 {...featuresFourAboutTwo} />}
+      {sectionVisibility.steps && <Steps {...stepsAbout} />}
+      {sectionVisibility.culture && <Features3 {...features3About} />}
+      {sectionVisibility.achievements && <Features {...featuresAbout} />}
+      {sectionVisibility.team && <Team2 {...teamAbout} />}
+      {sectionVisibility.testimonials && <Testimonials2 {...testimonials2About} />}
+      {sectionVisibility.faqs && <FAQs {...faqsAbout} />}
+      {sectionVisibility.contact && <Contact {...contactAbout} />}
     </>
   );
 };

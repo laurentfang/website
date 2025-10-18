@@ -67,33 +67,33 @@ export const heroHome: HeroProps = {
   },
 };
 
-// // SocialProof data on Home page *******************
-// export const socialProofHome: SocialProofProps = {
-//   id: 'socialProof-on-home',
-//   hasBackground: false,
-//   images: [
-//     {
-//       link: 'https://nextjs.org/',
-//       src: nextJsLogo,
-//       alt: 'NextJs Logo',
-//     },
-//     {
-//       link: 'https://react.dev/',
-//       src: reactLogo,
-//       alt: 'React Logo',
-//     },
-//     {
-//       link: 'https://tailwindcss.com/',
-//       src: tailwindCssLogo,
-//       alt: 'Tailwind CSS Logo',
-//     },
-//     {
-//       link: 'https://www.typescriptlang.org/',
-//       src: typescriptLogo,
-//       alt: 'Typescript Logo',
-//     },
-//   ],
-// };
+// SocialProof data on Home page *******************
+export const socialProofHome: SocialProofProps = {
+  id: 'socialProof-on-home',
+  hasBackground: false,
+  images: [
+    {
+      link: 'https://nextjs.org/',
+      src: nextJsLogo,
+      alt: 'Next.js Logo',
+    },
+    {
+      link: 'https://react.dev/',
+      src: reactLogo,
+      alt: 'React Logo',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: tailwindCssLogo,
+      alt: 'Tailwind CSS Logo',
+    },
+    {
+      link: 'https://www.typescriptlang.org/',
+      src: typescriptLogo,
+      alt: 'Typescript Logo',
+    },
+  ],
+};
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
@@ -356,132 +356,132 @@ export const testimonialsHome: TestimonialsProps = {
 };
 
 // FAQS data on Home page *******************
-// export const faqs2Home: FAQsProps = {
-//   id: 'faqsTwo-on-home',
-//   hasBackground: false,
-//   header: {
-//     title: 'Frequently Asked Questions',
-//     subtitle:
-//       'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
-//     tagline: 'FAQS',
-//   },
-//   items: [
-//     {
-//       title: 'What do I need to start?',
-//       description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
-//     },
-//     {
-//       title: 'How to install the NextJS + Tailwind CSS template?',
-//       description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
-//     },
-//     {
-//       title: "What's something that you completely don't understand?",
-//       description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
-//     },
-//     {
-//       title: "What's an example of when you changed your mind?",
-//       description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
-//     },
-//     {
-//       title: 'What is something that you would really like to try again?',
-//       description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-//     },
-//     {
-//       title: 'If you could only ask one question to each person you meet, what would that question be?',
-//       description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
-//     },
-//   ],
-// };
+export const faqs2Home: FAQsProps = {
+  id: 'faqsTwo-on-home',
+  hasBackground: false,
+  header: {
+    title: 'Frequently Asked Questions',
+    subtitle:
+      'Curious how our aerial intelligence platform supports tribal communities? Explore the essentials below.',
+    tagline: 'FAQs',
+  },
+  items: [
+    {
+      title: 'Who do you build drones for?',
+      description: `We prioritize Native American nations and public agencies focused on land stewardship, environmental monitoring, and community safety.`,
+    },
+    {
+      title: 'Can non-technical teams operate your systems?',
+      description: `Yes. Our control software uses natural language interfaces paired with guided mission templates so any trained operator can launch missions in minutes.`,
+    },
+    {
+      title: 'Do you support on-premise deployments?',
+      description: `Absolutely. We deliver secure on-premise or hybrid deployments that keep mission data sovereign and under the control of your nation or agency.`,
+    },
+    {
+      title: 'How quickly can we deploy a pilot program?',
+      description: `Most pilot programs launch within 6–8 weeks. We handle site assessments, training, and operational readiness alongside your team.`,
+    },
+    {
+      title: 'What about maintenance and repairs?',
+      description: `Our service agreements cover preventative maintenance, rapid part replacement, and remote diagnostics so you stay flight-ready.`,
+    },
+    {
+      title: 'Can we integrate third-party sensors?',
+      description: `Yes. Our airframes and mission software support modular payloads—from thermal and LiDAR to custom sensors unique to your mission.`,
+    },
+  ],
+};
 
 // Pricing data on Home page *******************
-// export const pricingHome: PricingProps = {
-//   id: 'pricing-on-home',
-//   hasBackground: true,
-//   header: {
-//     title: 'Prices for each plan',
-//     subtitle:
-//       'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
-//     // tagline: 'Pricing',
-//   },
-//   prices: [
-//     {
-//       title: 'basic',
-//       price: 29,
-//       period: 'per month',
-//       items: [
-//         {
-//           description: 'Etiam in libero, et volutpat',
-//         },
-//         {
-//           description: 'Aenean ac nunc dolor tristique',
-//         },
-//         {
-//           description: 'Cras scelerisque accumsan lib',
-//         },
-//         {
-//           description: 'In hac habitasse',
-//         },
-//       ],
-//       callToAction: {
-//         targetBlank: true,
-//         text: 'Free 7-day trial',
-//         href: '/',
-//       },
-//       hasRibbon: false,
-//     },
-//     {
-//       title: 'standard',
-//       price: 69,
-//       period: 'per month',
-//       items: [
-//         {
-//           description: 'Proin vel laoreet',
-//         },
-//         {
-//           description: 'Ut efficitur egestas',
-//         },
-//         {
-//           description: 'Pellentesque ut nibh',
-//         },
-//         {
-//           description: 'Donec fringilla sem',
-//         },
-//       ],
-//       callToAction: {
-//         targetBlank: true,
-//         text: 'Free 15-day trial',
-//         href: '/',
-//       },
-//       hasRibbon: true,
-//       ribbonTitle: 'Popular',
-//     },
-//     {
-//       title: 'premium',
-//       price: 199,
-//       period: 'per month',
-//       items: [
-//         {
-//           description: 'Curabitur suscipit risus',
-//         },
-//         {
-//           description: 'Aliquam blandit malesuada',
-//         },
-//         {
-//           description: 'Suspendisse sit amet',
-//         },
-//         {
-//           description: 'Suspendisse auctor dui',
-//         },
-//       ],
-//       callToAction: {
-//         targetBlank: true,
-//         text: 'Free 30-day trial',
-//         href: '/',
-//       },
-//       hasRibbon: false,
-//     },
-//   ],
-// };
+export const pricingHome: PricingProps = {
+  id: 'pricing-on-home',
+  hasBackground: true,
+  header: {
+    title: 'Mission Packages',
+    subtitle:
+      'Flexible engagement models that scale from rapid pilots to fully managed, multi-site operations.',
+    // tagline: 'Pricing',
+  },
+  prices: [
+    {
+      title: 'pilot',
+      price: 25,
+      period: 'per hour',
+      items: [
+        {
+          description: 'Single airframe with remote mission support',
+        },
+        {
+          description: 'Sensor bundle tailored to your first use-case',
+        },
+        {
+          description: 'Onsite training for 3 operators',
+        },
+        {
+          description: 'Data sovereignty workshop',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Book discovery call',
+        href: '/contact',
+      },
+      hasRibbon: false,
+    },
+    {
+      title: 'operations',
+      price: 55,
+      period: 'per hour',
+      items: [
+        {
+          description: 'Fleet of 4+ cooperative airframes',
+        },
+        {
+          description: 'Autonomous docking and charging stations',
+        },
+        {
+          description: '24/7 remote monitoring and alerting',
+        },
+        {
+          description: 'Joint incident response playbooks',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Plan deployment',
+        href: '/contact',
+      },
+      hasRibbon: true,
+      ribbonTitle: 'Most popular',
+    },
+    {
+      title: 'sovereign cloud',
+      price: 120,
+      period: 'per hour',
+      items: [
+        {
+          description: 'Dedicated mission ops team',
+        },
+        {
+          description: 'On-premise data lake with AI analytics',
+        },
+        {
+          description: 'Custom payload integration lab',
+        },
+        {
+          description: 'Guaranteed 2-hour field response',
+        },
+      ],
+      callToAction: {
+        targetBlank: true,
+        text: 'Schedule strategy session',
+        href: '/contact',
+      },
+      hasRibbon: false,
+    },
+  ],
+};
 
 // Team data on Home page *******************
 export const teamHome: TeamProps = {
@@ -653,43 +653,43 @@ export const contactHome: ContactProps = {
   },
 };
 
-// // CallToAction data *******************
-// export const callToAction2Home: CallToActionProps = {
-//   title: 'Next.js + Tailwind CSS',
-//   subtitle:
-//     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-//   callToAction: {
-//     text: 'Get template',
-//     href: 'https://github.com/onwidget/tailnext',
-//     icon: IconDownload,
-//   },
-//   items: [
-//     {
-//       title: 'Get template',
-//       description: 'Aliquam sodales est lectus, quis.',
-//       href: 'https://github.com/onwidget/tailnext',
-//     },
-//     {
-//       title: 'Learn more',
-//       description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-//       href: '/',
-//     },
-//     {
-//       title: 'Subscribe',
-//       description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-//       form: {
-//         icon: IconMail,
-//         input: {
-//           type: 'email',
-//           name: 'email',
-//           autocomplete: 'email',
-//           placeholder: 'Enter your email address',
-//         },
-//         btn: {
-//           title: 'Subscribe',
-//           type: 'submit',
-//         },
-//       },
-//     },
-//   ],
-// };
+// CallToAction data *******************
+export const callToAction2Home: CallToActionProps = {
+  title: 'Ready for Sovereign Flight Ops?',
+  subtitle:
+    'Partner with our Native-founded team to deploy autonomous aerial systems that safeguard your people, land, and critical infrastructure.',
+  callToAction: {
+    text: 'Talk with our team',
+    href: '/contact',
+    icon: IconDownload,
+  },
+  items: [
+    {
+      title: 'Book a strategy session',
+      description: 'Outline mission goals and define success metrics with our solution architects.',
+      href: '/contact',
+    },
+    {
+      title: 'Review deployment roadmap',
+      description: 'See how we take you from pilot to persistent operations in under 90 days.',
+      href: '/about',
+    },
+    {
+      title: 'Join the newsletter',
+      description: 'Stay updated on field stories, product releases, and community partnerships.',
+      form: {
+        icon: IconMail,
+        input: {
+          type: 'email',
+          name: 'email',
+          autocomplete: 'email',
+          placeholder: 'Enter your email address',
+        },
+        btn: {
+          title: 'Subscribe',
+          type: 'submit',
+        },
+      },
+    },
+  ],
+};

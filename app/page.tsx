@@ -20,7 +20,7 @@ import {
   contactHome,
   contentHomeOne,
   contentHomeTwo,
-  // faqs2Home,
+  faqs2Home,
   featuresHome,
   heroHome,
   pricingHome,
@@ -34,23 +34,40 @@ export const metadata: Metadata = {
   title: SITE.title,
 };
 
+const sectionVisibility = {
+  hero: true,
+  socialProof: false,
+  features: true,
+  droneGif: true,
+  videoClip: true,
+  contentOne: true,
+  contentTwo: true,
+  steps: true,
+  testimonials: true,
+  faqs: false,
+  pricing: false,
+  team: true,
+  contact: true,
+  callToAction: false,
+} as const;
+
 export default function Page() {
   return (
     <>
-      <Hero {...heroHome} />
-      <SocialProof {...socialProofHome} />
-      <Features {...featuresHome} />
-      <DroneGif />
-      <VideoClip />
-      <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
-      <Steps {...stepsHome} />
-      <Testimonials {...testimonialsHome} />
-      {/* <FAQs2 {...faqs2Home} /> */}
-      <Pricing {...pricingHome} />
-      <Team {...teamHome} />
-      <Contact {...contactHome} />
-      <CallToAction2 {...callToAction2Home} />
+      {sectionVisibility.hero && <Hero {...heroHome} />}
+      {sectionVisibility.socialProof && <SocialProof {...socialProofHome} />}
+      {sectionVisibility.features && <Features {...featuresHome} />}
+      {sectionVisibility.droneGif && <DroneGif />}
+      {sectionVisibility.videoClip && <VideoClip />}
+      {sectionVisibility.contentOne && <Content {...contentHomeOne} />}
+      {sectionVisibility.contentTwo && <Content {...contentHomeTwo} />}
+      {sectionVisibility.steps && <Steps {...stepsHome} />}
+      {sectionVisibility.testimonials && <Testimonials {...testimonialsHome} />}
+      {sectionVisibility.faqs && <FAQs2 {...faqs2Home} />}
+      {sectionVisibility.pricing && <Pricing {...pricingHome} />}
+      {sectionVisibility.team && <Team {...teamHome} />}
+      {sectionVisibility.contact && <Contact {...contactHome} />}
+      {sectionVisibility.callToAction && <CallToAction2 {...callToAction2Home} />}
     </>
   );
 }

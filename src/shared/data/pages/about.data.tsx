@@ -185,49 +185,49 @@ export const stepsAbout: StepsProps = {
 };
 
 // Features3 data on About page *******************
-// export const features3About: FeaturesProps = {
-//   id: 'featuresThree-on-about',
-//   hasBackground: false,
-//   columns: 3,
-//   header: {
-//     title: 'Our culture',
-//     subtitle:
-//       'Nullam maximus ante eros, ac eleifend mi condimentum ut. Donec volutpat felis ac purus pretium, vitae mollis quam scelerisque.',
-//     tagline: 'culture',
-//   },
-//   items: [
-//     {
-//       title: 'Customer engagement',
-//       description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-//       icon: IconCirclesRelation,
-//     },
-//     {
-//       title: 'Creativity and design excellence',
-//       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-//       icon: IconPalette,
-//     },
-//     {
-//       title: 'Continuous learning',
-//       description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-//       icon: IconBook,
-//     },
-//     {
-//       title: 'Collaboration and cross-functionality',
-//       description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-//       icon: IconPuzzle2,
-//     },
-//     {
-//       title: 'Entrepreneurial spirit',
-//       description: 'Phasellus interdum placerat enim sed vehicula. Ut tincidunt, magna in iaculis maximus.',
-//       icon: IconFlame,
-//     },
-//     {
-//       title: 'Employee well-being and balance',
-//       description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-//       icon: IconScale,
-//     },
-//   ],
-// };
+export const features3About: FeaturesProps = {
+  id: 'featuresThree-on-about',
+  hasBackground: false,
+  columns: 3,
+  header: {
+    title: 'Culture that Honors Our Roots',
+    subtitle:
+      'We blend traditional stewardship with frontier innovation, creating a workplace that reflects the values of the communities we serve.',
+    tagline: 'Culture',
+  },
+  items: [
+    {
+      title: 'Respect for Sovereignty',
+      description: 'Every decision centers on protecting Native governance, data, and economic autonomy.',
+      icon: IconCirclesRelation,
+    },
+    {
+      title: 'Purpose-Led Design',
+      description: 'We architect drones and software that answer real-world needs—from cultural preservation to climate resilience.',
+      icon: IconPalette,
+    },
+    {
+      title: 'Lifelong Learning',
+      description: 'Engineers and operators train together, building shared knowledge across tribal and technical domains.',
+      icon: IconBook,
+    },
+    {
+      title: 'Radical Collaboration',
+      description: 'Cross-disciplinary squads partner with community leaders to co-create mission playbooks.',
+      icon: IconPuzzle2,
+    },
+    {
+      title: 'Bold Innovation',
+      description: 'We experiment fast, iterate with empathy, and bring cutting-edge autonomy to the field responsibly.',
+      icon: IconFlame,
+    },
+    {
+      title: 'Whole-Person Support',
+      description: 'We invest in wellness, mentorship, and cultural exchange so every teammate can thrive.',
+      icon: IconScale,
+    },
+  ],
+};
 
 // Features data on About page *******************
 export const featuresAbout: FeaturesProps = {
@@ -477,77 +477,57 @@ export const teamAbout: TeamProps = {
 };
 
 // Testimonial2 data on About page *******************
-// export const testimonials2About: TestimonialsProps = {
-//   id: 'testimonialsTwo-on-about',
-//   hasBackground: true,
-//   isTestimonialUp: true,
-//   header: {
-//     title: 'Our success stories',
-//     tagline: 'Customer comments',
-//   },
-//   testimonials: [
-//     {
-//       name: 'Jane Smith',
-//       job: 'UX Designer',
-//       testimonial: `Your templates have been a game-changer for my projects. They're not just beautifully designed; they're also incredibly easy to customize. Thanks to your templates, I've been able to save time and deliver stunning websites to my clients.`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'Jane Smith',
-//       },
-//       href: '/',
-//     },
-//     {
-//       name: 'John Doe',
-//       job: 'Frontend Developer',
-//       testimonial: `I can't say enough good things about your Next.js and Tailwind CSS templates. As a frontend developer, I appreciate the clean and well-organized code. These templates have significantly sped up my development process, and the results are always impressive.`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'John Doe',
-//       },
-//       href: '/',
-//     },
-//     {
-//       name: 'Emily Turner',
-//       job: 'Marketing Manager',
-//       testimonial: `This templates have made our marketing campaigns stand out. The responsiveness and performance of the websites we've built with them have boosted our conversion rates. Thank you for helping us shine in the digital world!`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'Emily Turner',
-//       },
-//       href: '/',
-//     },
-//     {
-//       name: 'Michael Clark',
-//       job: 'Startup Founder',
-//       testimonial: `I stumbled upon your templates while looking for a way to launch my startup quickly. Your templates not only saved me valuable time but also gave my business a professional and modern online presence. Highly recommended!`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'Michael Clark',
-//       },
-//       href: '/',
-//     },
-//     {
-//       name: 'Linda Johnson',
-//       job: 'Freelance Web Designer',
-//       testimonial: `I've been using your templates for my freelance projects, and my clients are always thrilled with the results. The templates are not only visually appealing but also user-friendly, making my job much easier.`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'Linda Johnson',
-//       },
-//       href: '/',
-//     },
-//     {
-//       name: 'David Rogers',
-//       job: 'E-commerce Entrepreneur',
-//       testimonial: `The speed and SEO-friendliness of the websites I've built with these templates have led to increased traffic and sales. I couldn't be happier!`,
-//       image: {
-//         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-//         alt: 'David Rogers',
-//       },
-//       href: '/',
-//     },
-//   ],
-// };
+export const testimonials2About: TestimonialsProps = {
+  id: 'testimonialsTwo-on-about',
+  hasBackground: true,
+  isTestimonialUp: true,
+  header: {
+    title: 'Field Voices',
+    tagline: 'Customer comments',
+  },
+  testimonials: [
+    {
+      name: 'Chairwoman Elena Whitefeather',
+      job: 'Tribal Emergency Management',
+      testimonial: `Deploying your multi-drone system transformed how we monitor wildfire risk. Our guardians now receive alerts before smoke is visible, giving us time to protect our people and ceremony sites.`,
+      image: {
+        src: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80',
+        alt: 'Elena Whitefeather',
+      },
+      href: '/',
+    },
+    {
+      name: 'Marcus Hayes',
+      job: 'Director of Natural Resources',
+      testimonial: `The team honored our sovereignty from day one. All mission data stays on our servers, and their engineers trained our youth apprentices to maintain the fleet themselves.`,
+      image: {
+        src: 'https://images.unsplash.com/photo-1521579971123-1192931a1452?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80',
+        alt: 'Marcus Hayes',
+      },
+      href: '/',
+    },
+    {
+      name: 'Captain Raina Patel',
+      job: 'Public Safety Aviation Unit',
+      testimonial: `During flood season we had zero downtime. Docking stations kept the drones airborne around the clock, and the AI mission briefings meant every responder stayed in sync.`,
+      image: {
+        src: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80',
+        alt: 'Raina Patel',
+      },
+      href: '/',
+    },
+    {
+      name: 'Skydome Labs',
+      job: 'Director of Flight Operations',
+      testimonial: `Our partnership accelerated R&D by months. Their engineers co-located with our team to integrate custom payloads, and the transparency throughout the build cycle was unmatched.`,
+      image: {
+        src: 'https://images.unsplash.com/photo-1531540217159-9c3e60d136dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80',
+        alt: 'Skydome Labs',
+      },
+      href: '/',
+    },
+  ],
+};
 
 // FAQS data on About page *******************
 export const faqsAbout: FAQsProps = {
